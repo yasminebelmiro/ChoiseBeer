@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="#FFFFFF">
+
+    <Spinner
+        android:id="@+id/tipo_cerveja_spinner"
+        android:layout_width="211dp"
+        android:layout_height="67dp"
+        android:entries="@array/tipos_cerveja" />
+
+    <Button
+        android:id="@+id/buscar_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Buscar Marcas" />
+
+    <TextView
+        android:id="@+id/marcas_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Marcas encontradas aparecerão aqui"
+        android:textSize="16sp"
+        android:layout_marginTop="16dp"/>
+
+</LinearLayout>

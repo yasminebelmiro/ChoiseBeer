@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Consultor de cerveja</string>
+    <string-array name="tipos_cerveja">
+        <item>Amber</item>
+        <item>Lager</item>
+        <item>Pilsen</item>
+        <item>Stout</item>
+    </string-array>
+</resources>
